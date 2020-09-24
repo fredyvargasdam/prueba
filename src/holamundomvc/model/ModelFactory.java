@@ -6,7 +6,7 @@
 package holamundomvc.model;
 
 /**
- *
+ * Esta clase es una factoria para crear objetos de el modelo.
  * @author 2dam
  */
 public class ModelFactory {
