@@ -6,7 +6,7 @@
 package holamundomvc;
 
 /**
- *
+ * Esta es la clase aplicación para el proyecto HolaMundoMVC.
  * @author 2dam
  */
 public class Application {
