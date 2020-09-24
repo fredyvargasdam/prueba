@@ -12,6 +12,7 @@ package holamundomvc;
 public class Application {
 
     /**
+     * Esta clase va a pedir objetos de la vista y el modelo a las factorias respectivas.
      * @param args the command line arguments
      */
     public static void main(String[] args) {
