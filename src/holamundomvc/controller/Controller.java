@@ -5,6 +5,8 @@
  */
 package holamundomvc.controller;
 
+import holamundomvc.view.ViewImplementation;
+
 /**
  * Esta clase contiene al controlador de mi aplicacion, esta trabaja con ambas interfaces.
  * @author 2dam
@@ -12,6 +14,6 @@ package holamundomvc.controller;
 public class Controller {
     
     public void run(){
-        
+        ViewImplementation 
     }
 }
