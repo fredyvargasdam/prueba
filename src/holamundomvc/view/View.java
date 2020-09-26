@@ -10,7 +10,7 @@ package holaMundoMVC.view;
  * 
  * @author Endika Ubierna Lopez
  */
-public interface View {
+public interface View{
    
     /**
      * Muestra el saludo que recibe en la interfaz de usuario.

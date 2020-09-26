@@ -16,7 +16,7 @@ public class ViewImplementation implements holaMundoMVC.view.View{
      * @param greeting Este parametro es el String del fichero en el que guardamos el saludo
      */
     @Override
-    public void showGreeting(String greeting) {
+    public void showGreeting(String greeting){
         System.out.println(greeting);
     }
     

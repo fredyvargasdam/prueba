@@ -7,8 +7,10 @@ package holamundomvc.model;
 
 /**
  * Esta clase es una factoria para crear objetos de el modelo.
- * @author 2dam
+ * @author Endika Ubierna Lopez
  */
-public class ModelFactory {
-    
+public class ModelFactory{
+     public Model getModel(){
+        return new ModelImplementation();
+    }
 }

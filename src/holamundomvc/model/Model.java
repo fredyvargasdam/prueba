@@ -6,10 +6,10 @@
 package holamundomvc.model;
 
 /**
- * Esta interfaz será usada por el controller
+ * Esta interfaz será usada por el controller. Contiene los datos del proyecto.
  * @author 2dam
  */
-public interface Model {
+public interface Model{
     /**
      * Este metodo devuelve un String que sera el saludo que está recogido en un sistema de almacenamiento a decidir.
      * @return Devuelve el saludo que vamos a mostrar.
