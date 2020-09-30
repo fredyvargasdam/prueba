@@ -5,7 +5,7 @@
  */
 package holamundomvc.controller;
 
-import holaMundoMVC.view.View;
+import holamundomvc.view.View;
 import holamundomvc.model.Model;
 
 

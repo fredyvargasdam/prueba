@@ -15,6 +15,7 @@ public class ViewFactory{
      * @return Devuelve la interfaz Vista. //Nunca retornar una clase siempre la interfaz.
      */
     public View getView(){
-            return new ViewImplementation();
+        return new ViewImplementation();
     }
 }
+
