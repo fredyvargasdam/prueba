@@ -13,9 +13,11 @@ public class ViewFactory{
     /**
      * Este metodo se encarga de crear una implementacion de la vista.
      * @return Devuelve la interfaz Vista. //Nunca retornar una clase siempre la interfaz.
+
      */
     public View getView(){
-        return new ViewImplementation();
+        //return new ViewImplementation();
+        return new ViewVentana();
     }
 }
 
