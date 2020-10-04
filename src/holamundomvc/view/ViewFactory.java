@@ -5,6 +5,10 @@
  */
 package holamundomvc.view;
 
+import holamundomvc.model.ModelImplementation;
+import holamundomvc.model.ModelImplementationBD;
+import java.util.ResourceBundle;
+
 /**
  * Factoria de la vista.
  * @author Endika Ubierna Lopez
@@ -16,8 +20,28 @@ public class ViewFactory{
 
      */
     public View getView(){
-        //return new ViewImplementation();
-        return new ViewVentana();
+        ResourceBundle rb = ResourceBundle.getBundle("holamundomvc.view.tipovista");
+
+        int opc = 2;
+        try {
+
+            opc = Integer.parseInt(rb.getString("vista"));
+
+        } catch (Exception e) {
+
+        }
+
+        switch (opc) {
+            case 1:
+                return new ViewVentanaFx();
+            case 2:
+                return new ViewVentana();
+                case 3:
+                return new ViewImplementation();
+            default:
+                return new ViewImplementation();
+        }
+        
     }
 }
 
