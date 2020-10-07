@@ -65,7 +65,7 @@ public class ModelImplementationBD implements Model {
             } catch (SQLException ex) {
                  LOGGER.severe(ex.getMessage());
             }
-            LOGGER.info(mensaje);
+      //     LOGGER.info("Estoy en bd model  "+mensaje);
             return mensaje;
            
             }

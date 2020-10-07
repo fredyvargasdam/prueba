@@ -20,7 +20,9 @@ public class ModelFactory {
      * en realidad por polimorfismo devuelve una nueva instancia de la clase
      * ModelImplementation
      */
+    
     public Model getModel() {
+        
         ResourceBundle rb = ResourceBundle.getBundle("holamundomvc.model.tipomodel");
         int opc = 2;
         try {
@@ -33,11 +35,10 @@ public class ModelFactory {
 
         switch (opc) {
             case 1:
-                return new ModelImplementationBD();
-            case 2:
                 return new ModelImplementation();
+            
             default:
-                return new ModelImplementation();
+                return new ModelImplementationBD();
         }
     }
 }
